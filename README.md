@@ -39,5 +39,6 @@ python3 tools/test_video.py configs/masktrack_rcnn_r50_fpn_1x_youtubevos_objprop
 A JSON file with the inference results will be saved at `OUTPUT_PATH.json`. To evaluate the performance, submit the result file to the [evaluation server](https://competitions.codalab.org/competitions/20128).
 
 ## License
+ObjProp is released under the [Apache 2.0 license](LICENSE).
 
 ## Citation
