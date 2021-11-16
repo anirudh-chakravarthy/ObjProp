@@ -1,7 +1,7 @@
 # ObjProp
 
 ## Introduction
-This is the official implementation of the paper "Object Propagation via Inter-Frame Attentions for Temporally Stable Video Instance Segmentation".
+This is the official implementation of the paper "*[Object Propagation via Inter-Frame Attentions for Temporally Stable Video Instance Segmentation](https://arxiv.org/pdf/2111.07529.pdf)*".
 <img src='doc/framework.png'>
 
 ## Installation
@@ -42,3 +42,13 @@ A JSON file with the inference results will be saved at `OUTPUT_PATH.json`. To e
 ObjProp is released under the [Apache 2.0 license](LICENSE).
 
 ## Citation
+```
+@article{Chakravarthy2021ObjProp,
+  author = {Anirudh S Chakravarthy and Won-Dong Jang and Zudi Lin and Donglai Wei and Song Bai and Hanspeter Pfister},  
+  title = {Object Propagation via Inter-Frame Attentions for Temporally Stable Video Instance Segmentation},
+  journal = {CoRR},
+  volume = {abs/2111.07529},
+  year = {2021},
+  url = {https://arxiv.org/abs/2111.07529}
+}
+```
