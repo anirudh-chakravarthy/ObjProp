@@ -31,6 +31,8 @@ python3 tools/train.py configs/masktrack_rcnn_r50_fpn_1x_youtubevos_objprop.py
 In order to change the arguments such as dataset directory, learning rate, number of GPUs, etc, refer to the following configuration file `configs/masktrack_rcnn_r50_fpn_1x_youtubevos_objprop.py`.
 
 ## Inference
+Our pretrained model can be downloaded from [Google Drive](https://drive.google.com/file/d/17kFp60O0TOFjzO8jHSXKR4YzYUYefe-C/view?usp=sharing).
+
 To perform inference using ObjProp, run the following command:
 ```
 python3 tools/test_video.py configs/masktrack_rcnn_r50_fpn_1x_youtubevos_objprop.py [MODEL_PATH] --out [OUTPUT_PATH.json] --eval segm
