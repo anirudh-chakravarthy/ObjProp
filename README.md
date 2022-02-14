@@ -15,6 +15,11 @@ Then, install PyTorch 1.1.0, torchvision 0.3.0, mmcv 0.2.12:
 conda install pytorch==1.1.0 torchvision==0.3.0 -c pytorch
 pip install mmcv==0.2.12
 ```
+Then, install mmdetection:
+```
+python setup.py develop
+# or "pip install -v -e ."
+```
 Then, install the CocoAPI for YouTube-VIS
 ```
 conda install cython scipy
